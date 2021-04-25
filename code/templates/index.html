@@ -1,16 +1,37 @@
-<!doctype html>
-<html>
-  <head>
-    <title>File Upload</title>
-  </head>
-  <body>
-    <h1>File Upload</h1>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Coming Soon</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="tools/jquery.min.js"></script> 
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600,700|Damion' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+
+</head>
+<body>
+<div class="black"></div>
+<div id="wrapper">
+	<div id="header">
+		<h1>NFT Competition</h1>
+
+	</div>
+	<div id="middle">
+	 <h1>File Upload</h1>
+    <h2>File Upload</h2>
     <form method="POST" action="" enctype="multipart/form-data">
       <p><input type="file" name="file"></p>
       <p><input type="submit" value="Submit"></p>
     </form>
-  </body>
-{% with messages = get_flashed_messages() %}
+	</div>
+	<div id="footer">
+		<div>
+		
+		</div>
+	</div>
+</div>
+</body>
+  {% with messages = get_flashed_messages() %}
   {% if messages %}
 <h2>Logging</h2>
     {% for message in messages %}
