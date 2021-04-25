@@ -1,4 +1,4 @@
-# Application Security - Flask demo
+# Application Security - demo
 
 A simple Flask app with [Application Security](https://docs.app-security.trendmicro.com/) embedded. 
 
